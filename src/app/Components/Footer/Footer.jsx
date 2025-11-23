@@ -37,7 +37,7 @@ export default function Footer() {
             <div className="col-md-4 mb-4">
               <h4 className="fw-bold text-uppercase mb-3 company-name">KVS TOTAL CARE</h4>
               <p className="mb-1">417,Dinnur Main Road Kadugodi Plantation baengaluru Karnataka 560067</p>
-              <p className="mb-0">Powered by <span className="fw-semibold">G&amp;I ALLIANCE</span></p>
+              <p className="mb-0">Powered by <span className="fw-semibold">KVS - INC</span></p>
             </div>
 
             {/* Social + Links */}

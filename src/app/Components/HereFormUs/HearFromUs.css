@@ -1,0 +1,136 @@
+.hear-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.hear-form {
+    background: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    width: 450px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hear-form h3 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 700;
+    color: #333;
+}
+
+/* Floating input box */
+.form-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.form-group input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 16px 0 10px; /* enough top padding for label */
+    font-size: 16px;
+    background: transparent;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+    border-bottom: 2px solid #007bff;
+}
+
+.form-group label {
+    position: absolute;
+    left: 0;
+    top: 16px; /* default label position */
+    color: #777;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.3s ease;
+}
+
+/* Moves label up when input focused or filled */
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label,
+.form-group input:not([value=""]) + label {
+    top: -4px;    /* floating position */
+    font-size: 13px;
+    color: #007bff;
+}
+
+/* Checkbox */
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox input {
+    margin-right: 8px;
+    accent-color: #007bff;
+}
+
+.checkbox span {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Submit button */
+.submit-btn {
+    width: 100%;
+    background: #0084ff;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background: #006fd1;
+}
+
+/* Stats section */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.stats h4 {
+    color: #007bff;
+    font-weight: 700;
+    margin: 5px 0 0;
+}
+
+.stats p {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+
+@media (max-width:768px){
+    .hear-container {
+        transform: inherit;
+       
+    }
+
+    .hear-form {
+        background: white;
+        border-radius: 10px;
+        padding: 20px 40px;
+        width: auto;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    
+}

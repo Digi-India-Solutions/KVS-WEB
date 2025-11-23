@@ -1,0 +1,125 @@
+.footer-section {
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+.newsletter h2 {
+  letter-spacing: 0.5px;
+}
+
+.newsletter-input {
+  width: 300px;
+  max-width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  padding: 10px;
+}
+
+.newsletter-btn {
+  border-radius: 0;
+  background-color: #7f2e5f;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.footer {
+  background-color: #111;
+  color: #fff;
+}
+
+.company-name {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.contact-info h5 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.contact-info p {
+  font-size: 15px;
+  color: #ddd;
+  margin-bottom: 6px;
+}
+
+.contact-info a:hover {
+  color: #7f2e5f;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #7f2e5f;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-circle:hover {
+  background-color: #9a4075;
+  transform: translateY(-3px);
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 8px;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #7f2e5f;
+}
+
+.footer-bottom {
+  background-color: #7f2e5f;
+  color: #fff;
+}
+
+/* Existing styles stay same — just add these at the bottom */
+
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  gap: 10px 30px;
+  max-width: 250px;
+}
+
+@media (max-width: 576px) {
+  .support-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 15px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .footerTitle {
+    font-size: 18px;
+  }
+
+  .footersubTitle {
+    font-size: 14px;
+  }
+
+  .footer-bottom {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .contact-info {
+    text-align: center !important;
+  }
+}

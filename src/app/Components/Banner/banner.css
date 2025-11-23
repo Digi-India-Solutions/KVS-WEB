@@ -1,0 +1,63 @@
+.BannerSec{
+    width: 100vw;
+    height:72vh;
+    background-image: url("../../Assist/Images/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainHeading{
+    font-size: 30px;
+    font-weight: 700;
+    color:white;
+    line-height: 51px;
+    padding: 85px 0 0 190px;
+}
+
+
+.ListSection{
+    padding: 10px 190px;
+}
+
+.listText{
+    color:white;
+}
+.listText p{
+    margin:1px;
+    font-size: 20px !important;
+    color:white;
+    font-weight: 400;
+}
+
+
+@media (max-width:768px){
+    .mainHeading {
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    line-height: 13px;
+    padding: 10px 0 0 50px;
+}
+.BannerSec {
+    width: 100vw;
+    height: 20vh;
+}
+.ListSection {
+    padding: 1px 30px;
+}
+.listText p {
+    margin: 1px;
+    font-size: 8px !important;
+
+}
+.ListSection{
+    line-height: 10px;
+}
+
+
+
+
+
+}
+
+

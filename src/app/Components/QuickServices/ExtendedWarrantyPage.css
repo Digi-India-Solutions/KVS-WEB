@@ -1,0 +1,168 @@
+.extended-page .section-title {
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 6px;
+
+}
+
+.tabList {
+  gap: 76px;
+}
+
+.nav-link {
+  color: #333 !important;
+  border: none;
+  background: none;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #7f2e5f !important;
+}
+
+.QuickService {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.steps-list .list-group-item {
+  border: none;
+  font-size: 0.95rem;
+}
+
+.listSection {
+  display: flex;
+  text-align: justify;
+}
+
+.appliance-card:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transform: translateY(-2px);
+  transition: all 0.2s ease;
+}
+
+.reviews {
+  background: white;
+  padding: 40px;
+}
+
+.review-box {
+  border-left: 4px solid #0d6efd;
+  padding-left: 15px;
+  margin-top: 15px;
+}
+
+.appliances {
+  background-color: white;
+  padding: 40px;
+}
+
+.HowWork {
+  padding: 40px;
+  background: white;
+}
+
+.WhyWork {
+  padding: 40px;
+  background: white;
+}
+
+.faqTextpara {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #888f97;
+  text-align: justify;
+  display: block;
+}
+
+.ExtentendOriginal {
+  display: flex;
+}
+
+.FrequentSection {
+  margin: 0 !important;
+  gap: 38px;
+  padding: 40px 0px;
+}
+
+.faqSection {
+  padding: 40px;
+  background-color: white;
+}
+
+.accordion-button {
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    font-size: 10px;
+    border: 1px solid gray;
+    border-radius: 40px;
+    margin: 5px;
+  }
+
+  .ExtentendOriginal {
+    display: grid;
+  }
+
+  .QuickService {
+    margin-bottom: 25px;
+  }
+
+  .extended-page {
+    padding-top: 1rem !important;
+  }
+
+  .WhyWork {
+    padding: 10px;
+  }
+
+  .HowWork {
+    padding: 15px;
+    margin: 40px 0 !important;
+  }
+
+  .FrequentSection {
+    margin: 0 !important;
+    gap: 0px;
+    padding: 0px 0px;
+  }
+
+  .tabList {
+    gap: 0px;
+  }
+
+  .section-title {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .reviews {
+    margin-bottom: 2rem !important;
+  }
+
+  .FrequentSection {
+    margin: 0 !important;
+  }
+
+  .extSec {
+    margin: 15px 0px;
+  }
+
+  .paratext {
+    font-size: 12px;
+  }
+
+  .listSection {
+    font-size: 14px !important;
+    display: flex;
+    text-align: justify;
+  }
+  .appliances {
+    margin-bottom: 2rem !important;
+  }
+}

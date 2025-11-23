@@ -1,0 +1,133 @@
+.NavbarMainSec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 0;
+    width: 89%;
+}
+.contactNumber{
+    font-size: 20px;
+    font-weight: 700;
+}
+.spanText{
+    color:#4ea042 ;
+}
+.navbarContainer{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.text-stroke {
+  font-size: 25px;
+  font-weight: 700;
+  color: transparent; /* keep transparent fill */
+  -webkit-text-stroke: 1px #7f2e5f; /* stroke color and width */
+  position: relative;
+  display: inline-block; /* needed for ::after underline */
+}
+
+.text-stroke::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px; /* adjust spacing below text */
+  width: 100%;
+  height: 2px; /* underline thickness */
+  background-color: #7f2e5f; /* same as stroke color */
+  border-radius: 2px; /* optional: smooth corners */
+}
+
+
+/* styles/download.css */
+
+
+  .download-btn1 {
+    background-color: #7f2e5f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .download-btn2 {
+    background-color: #7f2e5f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #7f2e5f;
+    transform: scale(1.05);
+  }
+  .brandLogo{
+    height:60px;
+    width: 60px;
+
+  }
+  
+  
+
+
+
+@media (max-width: 768px){
+    .logoImg{
+            width: 70px;
+    height: 30px;
+
+    }
+    .contactNumber {
+    font-size: 12px;
+}
+.text-stroke {
+  font-size: 16px;
+}
+
+.download-btn1 {
+  width: 125px;
+
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: 300;
+ 
+}
+
+.contactNumber {
+ display: none;
+}
+
+.download-btn2 {
+  width: 80px;
+  display: flex;
+  font-size: 10px;
+  font-weight: 300;
+}
+.download-container a{
+  text-decoration: none;
+
+}
+
+.brandLogo {
+  height: 50px;
+  width: 50px;
+}
+
+.text-stroke::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 66%;
+}
+
+}

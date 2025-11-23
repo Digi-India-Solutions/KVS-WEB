@@ -1,0 +1,81 @@
+/* Background section */
+.earn-with-us-container {
+    background: linear-gradient(90deg, #b6438a, #7f2e5f);
+    min-height: 100vh;
+    padding: 3rem 1rem;
+  }
+  
+  /* Glassmorphism form card */
+  .earn-with-us {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(15px);
+    border-radius: 24px;
+    transition: all 0.4s ease-in-out;
+    width: 100%;
+    max-width: 700px;
+    animation: fadeInUp 0.7s ease;
+  }
+  
+  .earn-with-us:hover {
+    box-shadow: 0 0 35px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Gradient text */
+  .text-gradient {
+    background: linear-gradient(90deg, #b6438a, #7f2e5f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Button styling */
+  .btn-gradient {
+    background: linear-gradient(90deg, #b6438a, #7f2e5f);
+    color: white;
+    border: none;
+    border-radius: 14px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .btn-gradient:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.4);
+    background: linear-gradient(90deg, #b6438a, #7f2e5f);
+  }
+  
+  /* Inputs */
+  .earn-with-us input {
+    border-radius: 12px;
+    border: 1px solid #d0e3ff;
+    padding: 10px 14px;
+    transition: border 0.3s;
+  }
+  
+  .earn-with-us input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(25px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive */
+  @media (max-width: 576px) {
+    .earn-with-us {
+      padding: 2rem 1.5rem;
+    }
+  
+    .earn-with-us h2 {
+      font-size: 1.6rem;
+    }
+    
+  }
+  

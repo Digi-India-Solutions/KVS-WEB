@@ -3,10 +3,11 @@ const express = require("express");
 const cors = require("cors");
 const nodemailer = require("nodemailer");
 
+const app = express(); // FIX: initialize app FIRST
+
+// Allow your website
 app.use(cors({ origin: "https://kvstotalcare.in" }));
 
-const app = express();
-app.use(cors());
 app.use(express.json());
 
 app.post("/sendMail", async (req, res) => {

@@ -18,10 +18,28 @@ export default function HearFromUs() {
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    alert("We'll call you soon!");
-  };
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  try {
+    const res = await fetch("http://mail.kvstotalcare.in/sendMail", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
+
+    const data = await res.json();
+    if (data.success) {
+      alert("Inquiry sent successfully!");
+    } else {
+      alert("Email failed to send.");
+    }
+  } catch (err) {
+    console.error(err);
+    alert("Something went wrong.");
+  }
+};
+
 
   return (
     <div className="hear-container">

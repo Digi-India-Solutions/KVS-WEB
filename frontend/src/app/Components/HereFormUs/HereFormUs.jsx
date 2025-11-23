@@ -22,7 +22,7 @@ export default function HearFromUs() {
   e.preventDefault();
 
   try {
-    const res = await fetch("http://mail.kvstotalcare.in/sendMail", {
+    const res = await fetch("https://mail.kvstotalcare.in/sendMail", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),

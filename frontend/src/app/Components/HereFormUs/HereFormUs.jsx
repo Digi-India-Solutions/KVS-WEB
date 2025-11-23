@@ -89,7 +89,7 @@ export default function HearFromUs() {
             checked={formData.agree}
             onChange={handleChange}
           />
-          <span>Yes, I agree with OneAssist to call me</span>
+          <span>Yes, I agree with kvs total care to call me</span>
         </div>
 
         <button type="submit" className="submit-btn">

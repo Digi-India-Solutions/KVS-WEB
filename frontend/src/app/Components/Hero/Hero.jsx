@@ -26,7 +26,7 @@ export default function HeroSection() {
           </button>
           <button
             className="btn btn-outline-light px-5 py-2 fw-semibold"
-            onClick={() => router.push("/")}
+            onClick={() => router.push("https://login.kvstotalcare.in")}
           >
             Login
           </button>

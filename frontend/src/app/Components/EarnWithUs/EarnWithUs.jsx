@@ -9,45 +9,54 @@ export default function EarnWithUs() {
     customerName: "",
     customerEmail: "",
     phoneNumber: "",
-    productName: "",
-    purchaseDate: "",
   });
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+ const handleSubmit = async (e) => {
+  e.preventDefault();
 
-    // SweetAlert success message
-    Swal.fire({
-      title: "🎉 Success!",
-      text: "Customer details submitted successfully. Your download will begin shortly.",
-      icon: "success",
-      confirmButtonText: "Okay",
-      customClass: {
-        confirmButton: "swal2-confirm btn btn-primary px-4 py-2",
-      },
-    }).then(() => {
-      // Trigger APK download from the public folder
-      // const link = document.createElement("a");
-      // link.href = "/warrentyExtend.apk"; // ✅ Put your APK file inside the public folder
-      // link.download = "warrentyExtend.apk";
-      // document.body.appendChild(link);
-      // link.click();
-      // document.body.removeChild(link);
-
-      setFormData({
-        customerName: "",
-        customerEmail: "",
-        phoneNumber: "",
-        productName: "",
-        purchaseDate: "",
-      })
-
+  try {
+    const response = await fetch("https://mail.kvstotalcare.in/sendEarnWithUs", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
     });
-  };
+
+    const data = await response.json();
+
+    if (response.ok) {
+      Swal.fire({
+        title: "🎉 Success!",
+        text: "Customer details submitted successfully. Please download the APK.",
+        icon: "success",
+        confirmButtonText: "Okay",
+        customClass: { confirmButton: "swal2-confirm btn btn-primary px-4 py-2" },
+      }).then(() => {
+        setFormData({ customerName: "", customerEmail: "", phoneNumber: "" });
+      });
+    } else {
+      Swal.fire({
+        title: "❌ Error!",
+        text: data.message || "Something went wrong.",
+        icon: "error",
+        confirmButtonText: "Okay",
+      });
+    }
+  } catch (error) {
+    console.error(error);
+    Swal.fire({
+      title: "❌ Error!",
+      text: "Something went wrong while sending email.",
+      icon: "error",
+      confirmButtonText: "Okay",
+    });
+  }
+};
+
+
 
   return (
     <div className="earn-with-us-container d-flex justify-content-center align-items-center py-5">
@@ -89,30 +98,6 @@ export default function EarnWithUs() {
               className="form-control"
               name="phoneNumber"
               value={formData.phoneNumber}
-              onChange={handleChange}
-              required
-            />
-          </div>
-
-          <div className="mb-3">
-            <label className="form-label fw-semibold">Product Name</label>
-            <input
-              type="text"
-              className="form-control"
-              name="productName"
-              value={formData.productName}
-              onChange={handleChange}
-              required
-            />
-          </div>
-
-          <div className="mb-4">
-            <label className="form-label fw-semibold">Purchase Date</label>
-            <input
-              type="date"
-              className="form-control"
-              name="purchaseDate"
-              value={formData.purchaseDate}
               onChange={handleChange}
               required
             />

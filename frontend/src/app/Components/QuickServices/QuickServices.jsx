@@ -210,7 +210,7 @@ export default function ExtendedWarrantyPage() {
 
             <div className="review-box">
               <p className="mb-1 fst-italic">
-                “Had a very pleasant experience with OneAssist. The help desk responded on time & assisted me with the required information. Thanks to team OneAssist.”
+                “Had a very pleasant experience with Kvs Total Care. The help desk responded on time & assisted me with the required information. Thanks to team Kvs Total Care.”
               </p>
               <strong>– SAURAV SINHA</strong>
             </div>
@@ -223,19 +223,19 @@ export default function ExtendedWarrantyPage() {
               <h3 className="section-title">Frequently Asked Questions</h3>
               <div className="QuestionSection">
                 <b>Q1. Why should I take a home appliances protection/ extended warranty plan?</b> <br />
-                <p className="faqTextpara">ome Appliances allow us to enjoy life fully. A home warranty is a 1-year service contract product by OneAssist that covers the service and repair of most major home appliances (refrigerator, air conditioner, washing machine, television, and others) and system components due to failure, standard usage, and other problems due to age. A home warranty will typically cover most major components of your “refrigerator repair and service”, “air conditioner repair and service”, “washing machine repair and service”, “television repair and service” and “extended warranty” coverage.</p>
+                <p className="faqTextpara">ome Appliances allow us to enjoy life fully. A home warranty is a 1-year service contract product by Kvs Total Care that covers the service and repair of most major home appliances (refrigerator, air conditioner, washing machine, television, and others) and system components due to failure, standard usage, and other problems due to age. A home warranty will typically cover most major components of your “refrigerator repair and service”, “air conditioner repair and service”, “washing machine repair and service”, “television repair and service” and “extended warranty” coverage.</p>
               </div>
               <div className="QuestionSection">
                 <b>Q2. What is an Extended Warranty Plan?</b> <br />
                 <p className="faqTextpara">Extended Warranty Plan (EWP), also commonly referred to as Extended Warranty Service Contract (EWSC) or Extended Service Plan (ESP). An extended Warranty (EW) is a Service Agreement that replicates and extends the manufacturers warranty on your product by a specified period. It effectively transfers the financial risk of product breakdown from the buyer of the EWP to its provider. In event of the covered product breaking down functionally, the provider of the EW undertakes the repairs of the product as per the terms specified in the EWP.</p>
               </div >
               <div className="QuestionSection">
-                <b>Q3. Why should I buy Extended Warranty Pro+ offered by OneAssist?</b> <br />
-                <p className="faqTextpara">Extended Warranty Pro+ provided by OneAssist not only extends the term length of the manufacturers warranty but also enhances the coverage and services provided during the extended period. With the plans extended time and enhanced coverage and services, you can enjoy your product worry-free with complete peace of mind. With Extended Warranty Pro+, you can extend the term of your coverage for up to additional 2 years. Your product is covered not just for defects in material and workmanship but also for mechanical and electrical failure arising out of normal wear and tear, and environmental factors such as heat, dust, and humidity. Requesting for service is easy, convenient, takes less than 5 minutes, and can be done 24x7x365. We also have a dedicated claims team to help you. Our service experts visit within 6 business hours of your request or you can schedule an appointment for a later time as per your convenience. We offer an unmatched 10-business-day repair or replacement guarantee! The majority of repairs we undertake take less than a week. You are entitled to TRULY UNLIMITED REPAIRS during the plan period up to the product purchase value i.e. the product price before any applicable discounts or offers like an exchange value. Every time your product fails, we will repair it without any cost to you. Your products are repaired in the convenience of your home.24/7 customer support to file a complaint and claim at your convenience.</p>
+                <b>Q3. Why should I buy Extended Warranty Pro+ offered by Kvs Total Care?</b> <br />
+                <p className="faqTextpara">Extended Warranty Pro+ provided by Kvs Total Care not only extends the term length of the manufacturers warranty but also enhances the coverage and services provided during the extended period. With the plans extended time and enhanced coverage and services, you can enjoy your product worry-free with complete peace of mind. With Extended Warranty Pro+, you can extend the term of your coverage for up to additional 2 years. Your product is covered not just for defects in material and workmanship but also for mechanical and electrical failure arising out of normal wear and tear, and environmental factors such as heat, dust, and humidity. Requesting for service is easy, convenient, takes less than 5 minutes, and can be done 24x7x365. We also have a dedicated claims team to help you. Our service experts visit within 6 business hours of your request or you can schedule an appointment for a later time as per your convenience. We offer an unmatched 10-business-day repair or replacement guarantee! The majority of repairs we undertake take less than a week. You are entitled to TRULY UNLIMITED REPAIRS during the plan period up to the product purchase value i.e. the product price before any applicable discounts or offers like an exchange value. Every time your product fails, we will repair it without any cost to you. Your products are repaired in the convenience of your home.24/7 customer support to file a complaint and claim at your convenience.</p>
               </div>
               <div className="QuestionSection">
                 <b>Q1. Why should I take a home appliances protection/ extended warranty plan?</b> <br />
-                <p className="faqTextpara">ome Appliances allow us to enjoy life fully. A home warranty is a 1-year service contract product by OneAssist that covers the service and repair of most major home appliances (refrigerator, air conditioner, washing machine, television, and others) and system components due to failure, standard usage, and other problems due to age. A home warranty will typically cover most major components of your “refrigerator repair and service”, “air conditioner repair and service”, “washing machine repair and service”, “television repair and service” and “extended warranty” coverage.</p>
+                <p className="faqTextpara">ome Appliances allow us to enjoy life fully. A home warranty is a 1-year service contract product by Kvs Total Care that covers the service and repair of most major home appliances (refrigerator, air conditioner, washing machine, television, and others) and system components due to failure, standard usage, and other problems due to age. A home warranty will typically cover most major components of your “refrigerator repair and service”, “air conditioner repair and service”, “washing machine repair and service”, “television repair and service” and “extended warranty” coverage.</p>
               </div>
             </div>
           </section>
@@ -273,12 +273,12 @@ export default function ExtendedWarrantyPage() {
           <div className="accordion-item">
             <h2 className="accordion-header">
               <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3">
-                Q3. Why should I buy Extended Warranty Pro offered by OneAssist?
+                Q3. Why should I buy Extended Warranty Pro offered by Kvs Total Care?
               </button>
             </h2>
             <div id="q3" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div className="accordion-body">
-                OneAssists Extended Warranty Pro offers coverage for major mechanical and electrical failures along with 24x7 customer support and unlimited repairs during the coverage period.
+                Kvs Total Cares Extended Warranty Pro offers coverage for major mechanical and electrical failures along with 24x7 customer support and unlimited repairs during the coverage period.
               </div>
             </div>
           </div>

@@ -19,7 +19,7 @@ export default function Navbar() {
             </div>
            </Link>
           <div className='d-flex align-items-center gap-4'>
-            <h3 className='contactNumber'><span className='spanText'>Call us: </span>  1800 266 3333</h3>
+            <h3 className='contactNumber'><span className='spanText'>Call us: </span>  +91 9739694929</h3>
 
             <main className="download-container d-flex gap-3">
               <a href="/warrentyExtend.apk" download>

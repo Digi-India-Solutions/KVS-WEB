@@ -38,6 +38,7 @@ import app12 from '@/app/Assist/Images/otg.png'
 import app13 from '@/app/Assist/Images/vaccum-cleaner.png'
 import app14 from '@/app/Assist/Images/water-heater.png'
 import app15 from '@/app/Assist/Images/water-purifier.png'
+import app16 from '@/app/Assist/Images/mobi.png'
 
 
 
@@ -54,9 +55,10 @@ export default function ExtendedWarrantyPage() {
 
 
   const application = [
-    { id: 1, name: "Television", image: app1 },
-    { id: 2, name: "Refrigerator", image: app2 },
-    { id: 3, name: "Air Conditioner", image: app3 },
+    { id: 1, name: "Mobile", image: app16 },
+    { id: 2, name: "Television", image: app1 },
+    { id: 3, name: "Refrigerator", image: app2 },
+   
     { id: 4, name: "Washing Machine", image: app4 },
     { id: 5, name: "Microwave Oven", image: app5 },
     { id: 6, name: "Air Cooler", image: app6 },
@@ -69,6 +71,7 @@ export default function ExtendedWarrantyPage() {
     { id: 13, name: "Vaccuum Cleaner", image: app13 },
     { id: 14, name: "Water Heater", image: app14 },
     { id: 15, name: "Water Purifier", image: app15 },
+   { id: 16, name: "Air Conditioner", image: app3 },
 
 
 
